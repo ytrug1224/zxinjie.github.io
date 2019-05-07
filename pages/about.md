@@ -14,8 +14,8 @@ permalink: /about/
 
 ## 联系
 
-qq： 165390188
-email： zouxinjie126@gmail.com
+* qq： 165390188
+* email： zouxinjie126@gmail.com
 
 ## Skill Keywords
 
