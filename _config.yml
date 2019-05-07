@@ -2,9 +2,9 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://zxinjie.github.io/
+url: https://zxinjie.github.io
 date_format: "ordinal"
-title: 圣雪秋风
+title: 欣杰
 subtitle: "fork"
 description: "邹欣杰的个人博客"
 keywords: 邹欣杰, zxinjie
