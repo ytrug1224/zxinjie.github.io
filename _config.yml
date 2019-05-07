@@ -1,28 +1,125 @@
-title: 邹欣杰
-description: 个人博客
-author: 邹欣杰
-logo: /assets/img/zxj.png
-github: https://github.com/zxinjie
-about: Freelance developer
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://zxinjie.github.io/
+date_format: "ordinal"
+title: 圣雪秋风
+subtitle: "fork"
+description: "邹欣杰的个人博客"
+keywords: 邹欣杰, zxinjie
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
 
-baseurl: "https://zxinjie.github.io/"
-url: "https://zxinjie.github.io/"
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: zxinjie
+organization: 
+organization_url: 
+github_username: zxinjie
+location: Wuhan, China
+email: zouxinjie126@gmail.com
 
-allowsearch: true
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+  -
+    href: /categories/
+    label: 分类
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
+#   -
+#     href: /archives/
+#     label: 归档
 
+  -
+    href: /wiki/
+    label: 维基
 
-enableTags: true
-tagarray: []
+  -
+    href: /links/
+    label: 链接
 
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: zxinjie/zxinjie.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+# disqus:
+#     username: 
+# https://imsun.net/posts/gitment-introduction/
+# gitment:
+#     owner: zxinjie
+#     repo: blog-comments
+#     oauth:
+#         client_id: d2e1cbbd298958076462
+#         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: zxinjie
+    repo: blog-comments
+    clientID: 45ed356823845a565bec
+    clientSecret: 4b7c5d03ebc657691209eef381665ae12e40a560
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: true
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
