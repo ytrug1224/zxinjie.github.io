@@ -1,24 +1,21 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 未来不可欺
+keywords: 欣杰, zouxinjie
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是邹欣杰
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+坚信熟能生巧，努力改变人生, 未来不可欺。
 
 ## 联系
 
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
+qq： 165390188
+email： zouxinjie126@gmail.com
 
 ## Skill Keywords
 
