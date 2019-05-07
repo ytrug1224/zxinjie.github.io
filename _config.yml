@@ -1,12 +1,12 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
+title: 邹欣杰
+description: 个人博客
+author: 邹欣杰
+logo: /assets/img/zxj.png
 github: https://github.com/zxinjie
 about: Freelance developer
 
-baseurl: "https://zxinjie.github.io/hcz-jekyll-blog"
-url: "https://zxinjie.github.io/hcz-jekyll-blog"
+baseurl: "https://zxinjie.github.io/"
+url: "https://zxinjie.github.io/"
 
 allowsearch: true
 
