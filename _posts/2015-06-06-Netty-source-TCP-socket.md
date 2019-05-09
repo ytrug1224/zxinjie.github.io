@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Netty 源码解析--socket基础篇
+title: socket TCP实现
 categories: 网络编程
 description: Socket基础介绍与用法
 keywords: Java, Socket、TCP/IP
 ---
+在网络编程中，使用最多的就是Socket！
 
 **TCP/IP 分层**
     网络协议通常分不同层次进行开发，每一层分别负责不同的通信功能。一个协议族，比如 TCP/IP，是一组不同层次上的多个协议的组合。 TCP/IP 通常被认为是一个四层协议系统  (此处OSI七层模型类似): 
