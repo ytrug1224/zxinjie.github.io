@@ -19,11 +19,15 @@ layout: default
             <article class="article-content markdown-body">
                 {{ content }}
             </article>
-            <div class="pay">
-                {% include sidebar-qrcode.html %}
-            </div>
+            <br>
+            <article class="article-content markdown-body">
+                <img style="border:1px solid #dddddd;height:192px;width:192px" src="{{ site.url }}/assets/images/pay_qrcode.png" alt="开心的程序员" />
+            </article>
             <div class="share">
                 {% include sns-share.html %}
+            </div>
+            <div class="pay">
+                {% include sidebar-qrcode.html %}
             </div>
             <div class="comment">
                 {% include comments.html %}
