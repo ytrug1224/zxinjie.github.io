@@ -1,3 +1,11 @@
+---
+layout: post
+title: Android 如何计算ViewGroup的深度
+categories: [H5]
+description: Android 如何计算ViewGroup的深度
+keywords: ViewGroup的深度
+---
+
 ##H5 内联元素与块级元素总结
 
 1.首先我们要知道什么是块级元素和行级（内联）元素?
